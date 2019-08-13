@@ -7,12 +7,17 @@
     display: flex;
 }
 
+.logo-container {
+    padding-left: 30px;
+}
+
 .displayContainer {
     text-align: right;
     background: #333;
     color: white;
     max-width: 300px;
     border-radius: 10px;
+    padding-right: 20px;
     margin: 0 auto;
 
 }
@@ -25,7 +30,8 @@
     width: 300px;
     margin: 0 auto; */
     display: flex;
-    border: 4px solid black;
+
+    justify-content: space-evenly;
 
 
 
@@ -33,17 +39,26 @@
 
 .button {
     border-radius: 50%;
-    padding: 10px 10px;
-    margin: 20px;
+    padding: 10px;
+    margin: 25px;
 
 }
 
+.btn-darkBlue {
+    background: rgb(90, 90, 189);
+}
+
 .both {
-    border: 3px solid lawngreen;
+
+    margin-left: 50px;
+
+
 }
 
 .buttonDiv {
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
+    background: rgb(47, 158, 158);
 
 }
