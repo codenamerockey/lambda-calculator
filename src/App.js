@@ -24,9 +24,16 @@ function App() {
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <Display />
         <div className="btnContainer">
+          <div className="both">
+            <div className="spcButton">
+              <Specials />
+            </div>
+            <div className="number">
+              <Numbers />
+            </div>
+          </div>
+
           <Operators />
-          <Specials />
-          <Numbers />
         </div>
       </div>
     </div>

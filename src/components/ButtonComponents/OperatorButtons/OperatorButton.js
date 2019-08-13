@@ -1,9 +1,12 @@
 import React from "react";
+import "../../../App.css";
 
 const OperatorButton = props => {
   return (
     <>
-      <button>{props.buttonChar}</button>
+      <button className="buttonDiv button btn-darkBlue">
+        {props.buttonChar}
+      </button>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
     </>
   );
