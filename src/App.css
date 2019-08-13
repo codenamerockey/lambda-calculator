@@ -1,0 +1,17 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 3px solid grey;
+    background: crimson;
+    border-radius: 10px;
+}
+
+.displayContainer {
+    text-align: right;
+    background: #333;
+    color: white;
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
