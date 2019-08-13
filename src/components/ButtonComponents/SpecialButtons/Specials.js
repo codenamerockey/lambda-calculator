@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
 //import any components needed
 
 //Import your array data to from the provided data file
+import data from "../../../../src/data";
 
 const Specials = () => {
+  console.log(data.specials);
   // STEP 2 - add the imported data to state
+  const [specials, setSpecials] = useState(data.specials);
 
   return (
     <div>
@@ -15,3 +18,5 @@ const Specials = () => {
     </div>
   );
 };
+
+export default Specials;
