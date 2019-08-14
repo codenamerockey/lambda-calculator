@@ -8,25 +8,36 @@ const numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "."];
 
 const operators = [
   {
+    id: 1,
     char: "/",
     value: "/"
   },
   {
+    id: 2,
     char: "x",
     value: "*"
   },
   {
+    id: 3,
     char: "-",
     value: "-"
   },
   {
+    id: 4,
     char: "+",
     value: "+"
   },
   {
+    id: 5,
     char: "=",
     value: "="
   }
 ];
 
 const specials = ["C", "+/-", "%"];
+
+export default {
+  numbers,
+  operators,
+  specials
+};
